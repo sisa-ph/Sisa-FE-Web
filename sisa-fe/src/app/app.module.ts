@@ -4,11 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TranslationComponent } from './translation/translation.component';
+import { TranslateComponent } from './components/translation/translate/translate.component';
+import { LandingComponent } from './components/landing/landing/landing.component';
+import { LadningComponent } from './components/ladning/ladning.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TranslationComponent
+    TranslationComponent,
+    TranslateComponent,
+    LandingComponent,
+    LadningComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
