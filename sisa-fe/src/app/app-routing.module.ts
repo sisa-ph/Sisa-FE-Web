@@ -14,6 +14,12 @@ const routes: Routes = [
     loadChildren: () =>
       import('./components/landing/landing.module').then((m) => m.LandingModule),
   },
+  {
+    path: '',
+    loadChildren: () =>
+      import('./components/login/login.module').then((m) => m.LoginModule),
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
