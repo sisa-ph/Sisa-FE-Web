@@ -9,6 +9,11 @@ const routes: Routes = [
         (m) => m.TranslationModule
       ),
   },
+  {
+    path: '',
+    loadChildren: () =>
+      import('./components/landing/landing.module').then((m) => m.LandingModule),
+  },
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
