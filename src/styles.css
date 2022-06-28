@@ -1,0 +1,47 @@
+@import "button.scss";
+@import "variables.scss";
+@import "inputs.scss";
+@import "mixins.scss";
+@import "layouts.scss";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Roboto", "Rubik", sans-serif;
+  font-size: 16px;
+
+}
+
+@font-face {
+  font-family: 'Batangas';
+  src: url('Batangas-Bold.woff2') format('woff2'),
+      url('Batangas-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", "Roboto", sans-serif;
+}
+
+a:hover {
+  color: unset;
+}
+
+@layer base {
+  footer {
+    background: #263238;
+  }
+}
+
