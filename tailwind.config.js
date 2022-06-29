@@ -1,9 +1,8 @@
 module.exports = {
   important: true,
   mode: "aot",
-  content: {
-    content: ["./src/**/*.{html,ts}"],
-  },
+  content: ["./src/**/*.{html,ts}"],
+
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
