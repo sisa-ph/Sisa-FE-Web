@@ -1,7 +1,3 @@
-@import "variables.scss";
-@import "inputs.scss";
-@import "mixins.scss";
-@import "layouts.scss";
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
@@ -16,14 +12,6 @@ body {
 
 }
 
-@font-face {
-  font-family: 'Batangas';
-  src: url('Batangas-Bold.woff2') format('woff2'),
-      url('Batangas-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
 
 h1,
 h2,
